@@ -8,7 +8,7 @@ import Button from "@mui/material/Button";
 
 function Home() {
   return (
-    <div className="h-full w-fit pt-16">
+    <div className="h-full w-fit">
       <img
         className="h-full w-full overflow-hidden rounded "
         src={Main}
