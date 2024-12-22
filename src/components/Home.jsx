@@ -16,7 +16,7 @@ function Home() {
       />
 
       <div className="flex py-6 justify-between w-full flex-col lg:flex-row gap-1">
-        <h1 className="text-[44px] leading-none font-bold">
+        <h1 className="text-[34px] sm:text-[44px] leading-none font-bold">
           Discover Premium Plywood & Hardware Solutions
         </h1>
         <div>
