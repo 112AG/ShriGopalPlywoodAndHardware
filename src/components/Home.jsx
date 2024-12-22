@@ -8,14 +8,14 @@ import Button from "@mui/material/Button";
 
 function Home() {
   return (
-    <div className="h-full w-fit">
+    <div className="h-full w-fit px-2 sm:px-4">
       <img
         className="h-full w-full overflow-hidden rounded "
         src={Main}
         alt=""
       />
 
-      <div className="flex p-6 justify-between w-full flex-col lg:flex-row gap-1">
+      <div className="flex py-6 justify-between w-full flex-col lg:flex-row gap-1">
         <h1 className="text-[44px] leading-none font-bold">
           Discover Premium Plywood & Hardware Solutions
         </h1>
@@ -56,7 +56,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex w-full md:flex-row flex-col-reverse p-6 items-start leading-none">
+      <div className="flex w-full md:flex-row flex-col-reverse py-6 items-start leading-none">
         <div>
           <h1 className="text-[34px] pt-4 md:pt-0 font-bold lg:text-[44px]">
             Discover Our Best-Selling Plywood and Hardware Products for Your
@@ -114,7 +114,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="w-full flex p-6 lg:flex-row flex-col gap-2">
+      <div className="w-full flex py-6 lg:flex-row flex-col gap-2">
         <h2 className="text-[34px] md:text-4xl font-bold pb-2 leading-none">
           Discover Our Impressive Performance and Customer Satisfaction
           Statistics
@@ -125,11 +125,11 @@ function Home() {
             10,000 products this year. Our customer satisfaction rate stands at
             an impressive 95%, reflecting our commitment to quality.
           </p>
-          <div className="flex lg:justify-between justify-evenly items-center ">
+          <div className="flex lg:justify-between justify-evenly items-start gap-3 ">
             <div className="">
               <h2 className="font-bold text-5xl">95%</h2>
               <p className="text-xs text-gray-800">
-                Customer satisfaction rate based on <br /> recent surveys.
+                Customer satisfaction rate based on recent surveys.
               </p>
             </div>
             <div>
@@ -142,7 +142,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex justify-between items-center md:flex-row flex-col p-6">
+      <div className="flex justify-between items-center md:flex-row flex-col py-6">
         <div className="md:block hidden">
           <div className="h-24 w-24 border overflow-hidden p-2 mb-4 rounded">
             <img
