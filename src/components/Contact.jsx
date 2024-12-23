@@ -4,6 +4,7 @@ import { IoCall } from "react-icons/io5";
 import { IoMail } from "react-icons/io5";
 import { IoIosTime } from "react-icons/io";
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Contact = () => {
 
@@ -34,10 +35,10 @@ const Contact = () => {
     )
     .then(
       (result) => {
-        console.log('Success:', result.text);  // Handle success
+        toast.success("Successfully Submited");
       },
       (error) => {
-        console.log('Error:', error.text);  // Handle error
+        toast.error('Fail to Submit try Again!');
       }
     );
     
@@ -137,6 +138,7 @@ const Contact = () => {
             >
               Submit
             </button>
+            <ToastContainer />
           </form>
         </div>
       </div>

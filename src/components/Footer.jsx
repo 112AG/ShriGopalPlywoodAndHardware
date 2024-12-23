@@ -12,7 +12,7 @@ function Footer() {
         <Link className='text-xs text-gray-900 underline'>Cookie Preference</Link>
       </div>
         <div>
-      <p className='text-xs'><i className="ri-copyright-line"></i> 2024 Shri Gopal Plywood & Hardware. All rights reserved.</p>
+      <p className='text-xs text-center'><i className="ri-copyright-line"></i> 2024 Shri Gopal Plywood & Hardware. All rights reserved.</p>
       </div>
       </div>
     </div>
