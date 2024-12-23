@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import { Outlet } from 'react-router-dom';
 function Upper() {
   return (
-    <div className='w-fit'>
+    <div className=''>
         <Nav />
         <Outlet />
         <Footer />

@@ -8,14 +8,13 @@ import Button from "@mui/material/Button";
 
 function Home() {
   return (
-    <div className="h-full w-fit px-2 sm:px-4">
+    <div className="h-full px-0 sm:px-4 " >
       <img
-        className="h-full w-full overflow-hidden rounded "
+        className="h-full w-full overflow-hidden bg-fixed"
         src={Main}
-        alt=""
       />
 
-      <div className="flex py-6 justify-between w-full flex-col lg:flex-row gap-1">
+      <div className="flex sm:px-0 px-1 py-6 justify-between w-full flex-col lg:flex-row gap-1">
         <h1 className="text-[34px] sm:text-[44px] leading-none font-bold">
           Discover Premium Plywood & Hardware Solutions
         </h1>
@@ -31,6 +30,7 @@ function Home() {
               sx={{
                 borderColor: "black",
                 color: "White",
+                width: '148px',
                 backgroundColor: 'Black',
                 borderRadius: '0px'
               }}
@@ -42,6 +42,7 @@ function Home() {
               sx={{
                 borderColor: "black",
                 color: "black",
+                width: '148px',
                 borderRadius: '0px',
                 "&:hover": {
                   borderColor: "black",
@@ -57,7 +58,7 @@ function Home() {
       </div>
 
       <div className="flex w-full md:flex-row flex-col-reverse py-6 items-start leading-none">
-        <div>
+        <div className="sm:px-0 px-1">
           <h1 className="text-[34px] pt-4 md:pt-0 font-bold lg:text-[44px]">
             Discover Our Best-Selling Plywood and Hardware Products for Your
             Next Project
@@ -93,6 +94,7 @@ function Home() {
               margin: '16px 0',
               color: "black",
               borderRadius: '0px',
+              width: '138px',
               "&:hover": {
                 borderColor: "black",
                 backgroundColor: "transparent",
@@ -105,7 +107,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="h-full w-auto overflow-hidden">
+        <div className="h-full w-auto bg-fixed overflow-hidden">
           <img
             className="h-[65vh] md:h-full w-[800px] object-cover object-bottom"
             src="https://images.unsplash.com/photo-1698417945941-002d5764e98b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -114,7 +116,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="w-full flex py-6 lg:flex-row flex-col gap-2">
+      <div className="w-full flex py-6 lg:flex-row flex-col gap-2 sm:px-0 px-1">
         <h2 className="text-[34px] md:text-4xl font-bold pb-2 leading-none">
           Discover Our Impressive Performance and Customer Satisfaction
           Statistics
